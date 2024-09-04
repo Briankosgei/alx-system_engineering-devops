@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot school</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logoheader">
+        <img class="logo" src="/images/logo.jpg" alt="">
+        <h1>Welcome to Hotel Kapitoi</h1>
+
+    </div>
+
+
+    <header>
+        <p class="box">Location Nairobi</p>
+    </header>
+     <section class="Menu">
+        <h2 class="Our">Our Menu</h2>
+        <div class="items"><h3>Burger</h3>
+            <div class="image1">
+                <img src="/images/images.jpg" alt="This photo shows a burger">
+                <button onclick="addtocart" class="sh">sh 500</button>
+            </div>
+        </div>
+        <div class="image2" class="items">
+            <h4>Pizza</h4>
+            <img src="/images/fruity.jpg" alt="this image shows a pizza">
+            <button onclick="addtocart" class="sh">sh 750</button>
+        </div>
+     </section>
+     <section class="cart">
+        <h5>Your Orders</h5>
+        <ul id="cart-items">
+            <!-- Items will be added here-->
+        </ul>
+        <p>Total sh <span id="Total-price">0</span></p>
+        <button id="checkout" class="checkout">checkout</button>
+     </section>
+     <section>
+        <h6>Payment Methods</h6>
+        <button id="M-pesa-button" class="Payment">Lipa na M-pesa</button>
+        <button id="Paypal-button" class="Payment">Paypal</button>
+     </section>
+     <footer>
+        <p>&copy; 2024 Kapitoi Hotel</p>
+     </footer>
+
+</body>
+</html>
