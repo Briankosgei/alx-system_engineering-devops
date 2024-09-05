@@ -1,102 +1,13 @@
-*{
-    background-color: rgba(111, 221, 184, 0.308);
-    padding: 0%;
-    width: none;
-}
-.sh{
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 100;
-    border-radius: 20px;
-    box-shadow: inset;
-    padding: 2px;
-}
-.Menu{
-    display: flex;
-    gap: 10px;
-    justify-content: baseline;
-    background-color: rgb(95, 211, 172);
-}
-section{
-    margin: 20px;
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
     border-radius: 10px;
-    flex: content;
-}
-
-h{
-    text-align: center;
-    text-decoration: dotted;
-    text-decoration-color: rgb(201, 9, 9);
-    font: 200;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-
-p{
-    background-color: rgb(113, 167, 214);
-    font-style: none;
-    text-shadow: none;
-    text-transform: calc(0.5s);
-    text-decoration-line: overline;
-    text-decoration-color: rgb(84, 201, 201);
-    text-align: center;
-
-}
-
-.image1{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.image2{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.logoheader{
-    display: flex;
+    align-content: center;
     align-items: center;
-    gap: 5px;
-    border-radius: 20px;
+    padding: 5%;
+
 }
 
-.logo{
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    gap: 10px;
-}
-
-.cards{
-    display: flex;
-    gap: 10px;
-}
-
-.box{
-     border-radius: 20px;
-     background-color: rgb(189, 153, 153);
-}
-
-Menu-item{
-    font-size: medium;
-    font-weight: 300;
-}
-
-.checkout{
-    font-size: 10px;
-    border-radius: 10px;
-    font-size: large;
-}
-
-.Payment{
-    border-radius: 10px;
-    font-size: larger;
-    gap: 10px;
-    font: inherit;
-}
-
-.Our{
-    font-style: italic;
+th, td {
+    background-color: #96d4d4;
 }
